@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: #555555;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+}
+
+input,
+button,
+select {
+  font-size: 1.3rem;
+}
+
+@import './../imports/utils.scss';
+@import './../imports/button.scss';

@@ -1,0 +1,25 @@
+.wrapper {
+  margin: 0 auto;
+  max-width: 50rem;
+  padding: 1.3rem;
+}
+
+.item {
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  margin-bottom: 1.3rem;
+  padding: 1.3rem;
+}
+
+.item--position-2 {
+  background-color: darken($color: #dfe7ed, $amount: 15);
+  border-color: darken($color: #dfe7ed, $amount: 25);
+}
+.item--position-1 {
+  background-color: darken($color: #e4ede0, $amount: 15);
+  border-color: darken($color: #e4ede0, $amount: 25);
+}
+.item--position-3 {
+  background-color: darken($color: #eddfdf, $amount: 15);
+  border-color: darken($color: #eddfdf, $amount: 25);
+}
